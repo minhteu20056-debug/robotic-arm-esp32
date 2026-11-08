@@ -1,0 +1,202 @@
+{
+  "version": "4.0",
+  "description": "Lenh giong noi tu nhien 5 servo va xac nhan hai buoc; Google online / Vosk offline.",
+  "intents": [
+    {
+      "id": "GRIP_OPEN",
+      "phrases": [
+        "mở kẹp",
+        "mở kẹp ra",
+        "hãy mở kẹp",
+        "robot mở kẹp",
+        "robot hãy mở kẹp ra",
+        "nhả kẹp",
+        "nhả cái kẹp",
+        "mở tay kẹp",
+        "mở kẹp ra nào"
+      ]
+    },
+    {
+      "id": "GRIP_CLOSE",
+      "phrases": [
+        "đóng kẹp",
+        "đóng kẹp lại",
+        "hãy đóng kẹp",
+        "robot đóng kẹp",
+        "robot hãy đóng kẹp lại",
+        "kẹp lại",
+        "kẹp cái kẹp",
+        "đóng tay kẹp",
+        "kẹp lại đi"
+      ]
+    },
+    {
+      "id": "BASE_LEFT",
+      "phrases": [
+        "xoay đế trái",
+        "xoay đế sang trái",
+        "robot xoay đế trái",
+        "xoay đế sang trái mười lăm độ",
+        "xoay đế trái mười lăm độ",
+        "quay đế trái",
+        "quay đế sang trái"
+      ]
+    },
+    {
+      "id": "BASE_RIGHT",
+      "phrases": [
+        "xoay đế phải",
+        "xoay đế sang phải",
+        "robot xoay đế phải",
+        "xoay đế sang phải mười lăm độ",
+        "xoay đế phải mười lăm độ",
+        "quay đế phải",
+        "quay đế sang phải"
+      ]
+    },
+    {
+      "id": "GO_POSE_0",
+      "phrases": [
+        "về vị trí không",
+        "về vị trí số không",
+        "robot về vị trí không",
+        "về vị trí 0",
+        "vị trí không",
+        "đến vị trí không"
+      ]
+    },
+    {
+      "id": "GO_POSE_1",
+      "phrases": [
+        "về vị trí một",
+        "về vị trí số một",
+        "robot về vị trí một",
+        "vị trí một",
+        "đến vị trí một"
+      ]
+    },
+    {
+      "id": "GO_POSE_2",
+      "phrases": [
+        "về vị trí hai",
+        "về vị trí số hai",
+        "robot về vị trí hai",
+        "vị trí hai",
+        "đến vị trí hai"
+      ]
+    },
+    {
+      "id": "GO_POSE_3",
+      "phrases": [
+        "về vị trí ba",
+        "về vị trí số ba",
+        "robot về vị trí ba",
+        "vị trí ba",
+        "đến vị trí ba"
+      ]
+    },
+    {
+      "id": "STOP",
+      "phrases": [
+        "dừng",
+        "dừng lại",
+        "dừng robot",
+        "robot dừng lại"
+      ]
+    },
+    {
+      "id": "CONFIRM",
+      "phrases": [
+        "đồng ý",
+        "xác nhận",
+        "thực hiện",
+        "được rồi",
+        "tôi đồng ý"
+      ]
+    },
+    {
+      "id": "CANCEL",
+      "phrases": [
+        "hủy",
+        "hủy bỏ",
+        "không thực hiện",
+        "thôi hủy",
+        "không đồng ý",
+        "bỏ qua"
+      ]
+    },
+    {
+      "id": "GO_POSE_4",
+      "phrases": [
+        "vị trí bốn",
+        "về vị trí bốn",
+        "về vị trí số bốn",
+        "đến vị trí bốn"
+      ]
+    },
+    {
+      "id": "ANGLES",
+      "phrases": [
+        "xem góc",
+        "kiểm tra góc",
+        "góc hiện tại",
+        "đọc góc"
+      ]
+    },
+    {
+      "id": "STATUS",
+      "phrases": [
+        "trạng thái robot",
+        "trạng thái",
+        "kiểm tra robot"
+      ]
+    },
+    {
+      "id": "JOYSTICK_STATUS",
+      "phrases": [
+        "trạng thái joystick",
+        "kiểm tra joystick"
+      ]
+    },
+    {
+      "id": "SAVE_POSE_0",
+      "phrases": [
+        "lưu vị trí không",
+        "lưu vị trí số không",
+        "ghi nhớ vị trí không"
+      ]
+    },
+    {
+      "id": "SAVE_POSE_1",
+      "phrases": [
+        "lưu vị trí một",
+        "lưu vị trí số một",
+        "ghi nhớ vị trí một"
+      ]
+    },
+    {
+      "id": "SAVE_POSE_2",
+      "phrases": [
+        "lưu vị trí hai",
+        "lưu vị trí số hai",
+        "ghi nhớ vị trí hai"
+      ]
+    },
+    {
+      "id": "SAVE_POSE_3",
+      "phrases": [
+        "lưu vị trí ba",
+        "lưu vị trí số ba",
+        "ghi nhớ vị trí ba"
+      ]
+    },
+    {
+      "id": "SAVE_POSE_4",
+      "phrases": [
+        "lưu vị trí bốn",
+        "lưu vị trí số bốn",
+        "ghi nhớ vị trí bốn"
+      ]
+    }
+  ]
+}
